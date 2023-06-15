@@ -1,0 +1,91 @@
+<header class="bg-dark_sky md:overflow-hidden">
+    <div class="wrapper relative flex items-center justify-between">
+        <div class="flex items-center">
+          <a class="block text-white" routerLink="/">
+           <img src="assets/img/logo.png" alt="logo"/>
+          </a>
+        </div>
+        <div class="inline-block">
+          <nav aria-label="Global" class="anim" id="nav">
+            <ul>
+              <li class="relative group anim">
+                <a class="anim" routerLink="/"> Home </a>
+                <span class="anim md:group-hover:visible md:group-hover:opacity-100 md:group-hover:translate-y-0"></span>
+              </li>
+              <li class="relative group anim">
+                <a class="anim" routerLink="/features"> Features </a>
+                <span class="anim md:group-hover:visible md:group-hover:opacity-100 md:group-hover:translate-y-0"></span>
+              </li>
+              <li class="relative group anim">
+                <a class="anim" routerLink="/pricing"> Pricing </a>
+                <span class="anim md:group-hover:visible md:group-hover:opacity-100 md:group-hover:translate-y-0"></span>
+              </li>
+              <li class="relative group anim">
+                <a class="anim" routerLink="/contact"> Contact us </a>
+                <span class="anim md:group-hover:visible md:group-hover:opacity-100 md:group-hover:translate-y-0"></span>
+              </li>
+            </ul>
+          </nav>
+          <div class="block md:hidden">
+            <button onclick="toggleActive('#nav','active');">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="#fff" stroke-width="2">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
+              </svg>
+            </button>
+          </div>
+        </div>
+    </div>
+  </header>
+
+<!-- <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" (click)="navBar()" data-toggle="collapse"
+        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+                <a class="nav-link" routerLink="/">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" routerLink="/features">Features</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" routerLink="/pricing">Pricing</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" routerLink="/contact">Contact Us</a>
+            </li>
+        </ul>
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false">
+                    Dropdown
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link disabled" href="#">Disabled</a>
+            </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+    </div>
+</nav> -->
