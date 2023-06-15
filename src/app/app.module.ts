@@ -9,6 +9,7 @@ import { HomeComponent } from './home/home.component';
 import { FeaturesComponent } from './features/features.component';
 import { PricingComponent } from './pricing/pricing.component';
 import { ContactComponent } from './contact/contact.component';
+import { SwiperModule } from 'swiper/angular';
 
 @NgModule({
     declarations: [
@@ -22,7 +23,8 @@ import { ContactComponent } from './contact/contact.component';
     imports: [
         BrowserModule,
         AppRoutingModule,
-        FormsModule
+        FormsModule,
+        SwiperModule
     ],
     providers: [],
     bootstrap: [AppComponent]

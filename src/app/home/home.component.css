@@ -1,0 +1,9 @@
+::ng-deep .swiper-pagination {
+    bottom: 20px;
+    left: 0;
+    right: 0;
+    }
+::ng-deep .swiper-pagination > span.swiper-pagination-bullet {
+    margin-left: 5px;
+    margin-right: 5px;
+}

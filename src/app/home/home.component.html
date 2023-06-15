@@ -1,83 +1,239 @@
 <section class="lg:pb-5">
-    <div class="wrapper">
+    <div class="">
         <!-- Swiper -->
-      <div class="swiper mySwiper lg:pb-24">
-        <div class="swiper-wrapper">
-          <div class="swiper-slide">
-            <div class="flex flex-wrap items-center">
-              <div class="w-full md:w-1/2 px-4 md:order-2">
-                  <img src="assets/img/banner-1.png" alt="banner-1"/>
-              </div>
-              <div class="w-full md:w-1/2 px-4 md:order-1 text-center space-y-5 md:space-y-7">
-                  <h1>Automate self-development</h1>
-                  <p class="text-base text-light_gray">Evolve daily by efficiently managing your time, thoughts,
-                    tasks and routines in a simple app.</p>
-                  <a href="javascript:void(0)" class="max-w-[280px] py-3 anim btn-primary group mx-auto">
-                    <svg class="fill-white w-5 h-5 group-hover:fill-dark_sky mr-2" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="512" height="512" x="0" y="0" viewBox="0 0 163.861 163.861" style="enable-background:new 0 0 512 512" xml:space="preserve"><g><path d="M34.857 3.613C20.084-4.861 8.107 2.081 8.107 19.106v125.637c0 17.042 11.977 23.975 26.75 15.509L144.67 97.275c14.778-8.477 14.778-22.211 0-30.686L34.857 3.613z" data-original="#000000" class=""></path></g></svg>
-                    Watch video
-                  </a> 
-                  <div class="flex justify-center space-x-5">
-                    <a href="javascript:void(0)" class="inline-block">
-                      <img src="assets/img/gpay.png" alt="">
-                    </a>
-                    <a href="javascript:void(0)" class="inline-block">
-                      <img src="assets/img/apay.png" alt="">
-                    </a>
+        
+        <swiper #swiper [config]="config">
+          <ng-template class="p-5 pb-12" swiperSlide>
+            <div class="wrapper">
+                <div class="flex flex-wrap items-center">
+                  <div class="w-full md:w-1/2 px-4 md:order-2">
+                    <img src="assets/img/banner-1.png" alt="banner-1"/>
                   </div>
-              </div>
+                  <div class="w-full md:w-1/2 px-4 md:order-1 text-center space-y-5 md:space-y-7">
+                    <h1>Automate self-development</h1>
+                    <p class="text-base text-light_gray">Evolve daily by efficiently managing your time, thoughts, tasks and routines in a simple app.</p>
+                    <a href="javascript:void(0)" class="max-w-[280px] py-3 anim btn-primary group mx-auto">
+                      <svg class="fill-white w-5 h-5 group-hover:fill-dark_sky mr-2" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="512" height="512" x="0" y="0" viewBox="0 0 163.861 163.861" style="enable-background:new 0 0 512 512" xml:space="preserve"><g><path d="M34.857 3.613C20.084-4.861 8.107 2.081 8.107 19.106v125.637c0 17.042 11.977 23.975 26.75 15.509L144.67 97.275c14.778-8.477 14.778-22.211 0-30.686L34.857 3.613z" data-original="#000000" class=""></path></g></svg>
+                      Watch video
+                    </a> 
+                    <div class="flex justify-center space-x-5">
+                      <a href="javascript:void(0)" class="inline-block">
+                        <img src="assets/img/gpay.png" alt="">
+                      </a>
+                      <a href="javascript:void(0)" class="inline-block">
+                        <img src="assets/img/apay.png" alt="">
+                      </a>
+                    </div>
+                  </div>
+                </div>
+            </div>
+          </ng-template>
+          <ng-template class="p-5 pb-12" swiperSlide>
+            <div class="wrapper">
+                <div class="flex flex-wrap items-center">
+                  <div class="w-full md:w-1/2 px-4 md:order-2">
+                    <img src="assets/img/banner-1.png" alt="banner-1"/>
+                  </div>
+                  <div class="w-full md:w-1/2 px-4 md:order-1 text-center space-y-5 md:space-y-7">
+                    <h1>Automate self-development</h1>
+                    <p class="text-base text-light_gray">Evolve daily by efficiently managing your time, thoughts, tasks and routines in a simple app.</p>
+                    <a href="javascript:void(0)" class="max-w-[280px] py-3 anim btn-primary group mx-auto">
+                      <svg class="fill-white w-5 h-5 group-hover:fill-dark_sky mr-2" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="512" height="512" x="0" y="0" viewBox="0 0 163.861 163.861" style="enable-background:new 0 0 512 512" xml:space="preserve"><g><path d="M34.857 3.613C20.084-4.861 8.107 2.081 8.107 19.106v125.637c0 17.042 11.977 23.975 26.75 15.509L144.67 97.275c14.778-8.477 14.778-22.211 0-30.686L34.857 3.613z" data-original="#000000" class=""></path></g></svg>
+                      Watch video
+                    </a> 
+                    <div class="flex justify-center space-x-5">
+                      <a href="javascript:void(0)" class="inline-block">
+                        <img src="assets/img/gpay.png" alt="">
+                      </a>
+                      <a href="javascript:void(0)" class="inline-block">
+                        <img src="assets/img/apay.png" alt="">
+                      </a>
+                    </div>
+                  </div>
+                </div>
+            </div>
+          </ng-template>
+          <ng-template class="p-5 pb-12" swiperSlide>
+            <div class="wrapper">
+                <div class="flex flex-wrap items-center">
+                  <div class="w-full md:w-1/2 px-4 md:order-2">
+                    <img src="assets/img/banner-1.png" alt="banner-1"/>
+                  </div>
+                  <div class="w-full md:w-1/2 px-4 md:order-1 text-center space-y-5 md:space-y-7">
+                    <h1>Automate self-development</h1>
+                    <p class="text-base text-light_gray">Evolve daily by efficiently managing your time, thoughts, tasks and routines in a simple app.</p>
+                    <a href="javascript:void(0)" class="max-w-[280px] py-3 anim btn-primary group mx-auto">
+                      <svg class="fill-white w-5 h-5 group-hover:fill-dark_sky mr-2" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="512" height="512" x="0" y="0" viewBox="0 0 163.861 163.861" style="enable-background:new 0 0 512 512" xml:space="preserve"><g><path d="M34.857 3.613C20.084-4.861 8.107 2.081 8.107 19.106v125.637c0 17.042 11.977 23.975 26.75 15.509L144.67 97.275c14.778-8.477 14.778-22.211 0-30.686L34.857 3.613z" data-original="#000000" class=""></path></g></svg>
+                      Watch video
+                    </a> 
+                    <div class="flex justify-center space-x-5">
+                      <a href="javascript:void(0)" class="inline-block">
+                        <img src="assets/img/gpay.png" alt="">
+                      </a>
+                      <a href="javascript:void(0)" class="inline-block">
+                        <img src="assets/img/apay.png" alt="">
+                      </a>
+                    </div>
+                  </div>
+                </div>
+            </div>
+          </ng-template>
+          <div class="swiper-pagination"></div>
+        </swiper>
+        <!-- <div class="swiper mySwiper-01 lg:pb-24" id="upcomingEvents">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide py-5">
+                <div class="flex flex-wrap items-center">
+                    <div class="w-full md:w-1/2 px-4 md:order-2">
+                        <img src="assets/img/banner-1.png" alt="banner-1"/>
+                    </div>
+                    <div class="w-full md:w-1/2 px-4 md:order-1 text-center space-y-5 md:space-y-7">
+                        <h1>Automate self-development</h1>
+                        <p class="text-base text-light_gray">Evolve daily by efficiently managing your time, thoughts,
+                          tasks and routines in a simple app.</p>
+                        <a href="javascript:void(0)" class="max-w-[280px] py-3 anim btn-primary group mx-auto">
+                          <svg class="fill-white w-5 h-5 group-hover:fill-dark_sky mr-2" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="512" height="512" x="0" y="0" viewBox="0 0 163.861 163.861" style="enable-background:new 0 0 512 512" xml:space="preserve"><g><path d="M34.857 3.613C20.084-4.861 8.107 2.081 8.107 19.106v125.637c0 17.042 11.977 23.975 26.75 15.509L144.67 97.275c14.778-8.477 14.778-22.211 0-30.686L34.857 3.613z" data-original="#000000" class=""></path></g></svg>
+                          Watch video
+                        </a> 
+                        <div class="flex justify-center space-x-5">
+                          <a href="javascript:void(0)" class="inline-block">
+                            <img src="assets/img/gpay.png" alt="">
+                          </a>
+                          <a href="javascript:void(0)" class="inline-block">
+                            <img src="assets/img/apay.png" alt="">
+                          </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide py-5">
+                <div class="flex flex-wrap items-center">
+                    <div class="w-full md:w-1/2 px-4 md:order-2">
+                        <img src="assets/img/banner-1.png" alt="banner-1"/>
+                    </div>
+                    <div class="w-full md:w-1/2 px-4 md:order-1 text-center space-y-5 md:space-y-7">
+                        <h1>Automate self-development</h1>
+                        <p class="text-base text-light_gray">Evolve daily by efficiently managing your time, thoughts,
+                          tasks and routines in a simple app.</p>
+                        <a href="javascript:void(0)" class="max-w-[280px] py-3 anim btn-primary group mx-auto">
+                          <svg class="fill-white w-5 h-5 group-hover:fill-dark_sky mr-2" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="512" height="512" x="0" y="0" viewBox="0 0 163.861 163.861" style="enable-background:new 0 0 512 512" xml:space="preserve"><g><path d="M34.857 3.613C20.084-4.861 8.107 2.081 8.107 19.106v125.637c0 17.042 11.977 23.975 26.75 15.509L144.67 97.275c14.778-8.477 14.778-22.211 0-30.686L34.857 3.613z" data-original="#000000" class=""></path></g></svg>
+                          Watch video
+                        </a> 
+                        <div class="flex justify-center space-x-5">
+                          <a href="javascript:void(0)" class="inline-block">
+                            <img src="assets/img/gpay.png" alt="">
+                          </a>
+                          <a href="javascript:void(0)" class="inline-block">
+                            <img src="assets/img/apay.png" alt="">
+                          </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide py-5">
+                <div class="flex flex-wrap items-center">
+                    <div class="w-full md:w-1/2 px-4 md:order-2">
+                        <img src="assets/img/banner-1.png" alt="banner-1"/>
+                    </div>
+                    <div class="w-full md:w-1/2 px-4 md:order-1 text-center space-y-5 md:space-y-7">
+                        <h1>Automate self-development</h1>
+                        <p class="text-base text-light_gray">Evolve daily by efficiently managing your time, thoughts,
+                          tasks and routines in a simple app.</p>
+                        <a href="javascript:void(0)" class="max-w-[280px] py-3 anim btn-primary group mx-auto">
+                          <svg class="fill-white w-5 h-5 group-hover:fill-dark_sky mr-2" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="512" height="512" x="0" y="0" viewBox="0 0 163.861 163.861" style="enable-background:new 0 0 512 512" xml:space="preserve"><g><path d="M34.857 3.613C20.084-4.861 8.107 2.081 8.107 19.106v125.637c0 17.042 11.977 23.975 26.75 15.509L144.67 97.275c14.778-8.477 14.778-22.211 0-30.686L34.857 3.613z" data-original="#000000" class=""></path></g></svg>
+                          Watch video
+                        </a> 
+                        <div class="flex justify-center space-x-5">
+                          <a href="javascript:void(0)" class="inline-block">
+                            <img src="assets/img/gpay.png" alt="">
+                          </a>
+                          <a href="javascript:void(0)" class="inline-block">
+                            <img src="assets/img/apay.png" alt="">
+                          </a>
+                        </div>
+                    </div>
+                </div>
             </div>
           </div>
-          <div class="swiper-slide">
-            <div class="flex flex-wrap items-center">
-              <div class="w-full md:w-1/2 px-4 md:order-2">
-                  <img src="assets/img/banner-1.png" alt="banner-1"/>
-              </div>
-              <div class="w-full md:w-1/2 px-4 md:order-1 text-center space-y-5 md:space-y-7">
-                  <h1>Automate self-development</h1>
-                  <p class="text-base text-light_gray">Evolve daily by efficiently managing your time, thoughts,
-                    tasks and routines in a simple app.</p>
-                  <a href="javascript:void(0)" class="max-w-[280px] py-3 anim btn-primary group mx-auto">
-                    <svg class="fill-white w-5 h-5 group-hover:fill-dark_sky mr-2" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="512" height="512" x="0" y="0" viewBox="0 0 163.861 163.861" style="enable-background:new 0 0 512 512" xml:space="preserve"><g><path d="M34.857 3.613C20.084-4.861 8.107 2.081 8.107 19.106v125.637c0 17.042 11.977 23.975 26.75 15.509L144.67 97.275c14.778-8.477 14.778-22.211 0-30.686L34.857 3.613z" data-original="#000000" class=""></path></g></svg>
-                    Watch video
-                  </a> 
-                  <div class="flex justify-center space-x-5">
-                    <a href="javascript:void(0)" class="inline-block">
-                      <img src="assets/img/gpay.png" alt="">
-                    </a>
-                    <a href="javascript:void(0)" class="inline-block">
-                      <img src="assets/img/apay.png" alt="">
-                    </a>
-                  </div>
-              </div>
+          <div class="swiper-pagination hidden lg:block"></div>
+        </div> -->
+        <!-- <div class="swiper mySwiper lg:pb-24">
+            <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <div class="flex flex-wrap items-center">
+                <div class="w-full md:w-1/2 px-4 md:order-2">
+                    <img src="assets/img/banner-1.png" alt="banner-1"/>
+                </div>
+                <div class="w-full md:w-1/2 px-4 md:order-1 text-center space-y-5 md:space-y-7">
+                    <h1>Automate self-development</h1>
+                    <p class="text-base text-light_gray">Evolve daily by efficiently managing your time, thoughts,
+                        tasks and routines in a simple app.</p>
+                    <a href="javascript:void(0)" class="max-w-[280px] py-3 anim btn-primary group mx-auto">
+                        <svg class="fill-white w-5 h-5 group-hover:fill-dark_sky mr-2" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="512" height="512" x="0" y="0" viewBox="0 0 163.861 163.861" style="enable-background:new 0 0 512 512" xml:space="preserve"><g><path d="M34.857 3.613C20.084-4.861 8.107 2.081 8.107 19.106v125.637c0 17.042 11.977 23.975 26.75 15.509L144.67 97.275c14.778-8.477 14.778-22.211 0-30.686L34.857 3.613z" data-original="#000000" class=""></path></g></svg>
+                        Watch video
+                    </a> 
+                    <div class="flex justify-center space-x-5">
+                        <a href="javascript:void(0)" class="inline-block">
+                        <img src="assets/img/gpay.png" alt="">
+                        </a>
+                        <a href="javascript:void(0)" class="inline-block">
+                        <img src="assets/img/apay.png" alt="">
+                        </a>
+                    </div>
+                </div>
+                </div>
             </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="flex flex-wrap items-center">
-              <div class="w-full md:w-1/2 px-4 md:order-2">
-                  <img src="assets/img/banner-1.png" alt="banner-1"/>
-              </div>
-              <div class="w-full md:w-1/2 px-4 md:order-1 text-center space-y-5 md:space-y-7">
-                  <h1>Automate self-development</h1>
-                  <p class="text-base text-light_gray">Evolve daily by efficiently managing your time, thoughts,
-                    tasks and routines in a simple app.</p>
-                  <a href="javascript:void(0)" class="max-w-[280px] py-3 anim btn-primary group mx-auto">
-                    <svg class="fill-white w-5 h-5 group-hover:fill-dark_sky mr-2" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="512" height="512" x="0" y="0" viewBox="0 0 163.861 163.861" style="enable-background:new 0 0 512 512" xml:space="preserve"><g><path d="M34.857 3.613C20.084-4.861 8.107 2.081 8.107 19.106v125.637c0 17.042 11.977 23.975 26.75 15.509L144.67 97.275c14.778-8.477 14.778-22.211 0-30.686L34.857 3.613z" data-original="#000000" class=""></path></g></svg>
-                    Watch video
-                  </a> 
-                  <div class="flex justify-center space-x-5">
-                    <a href="javascript:void(0)" class="inline-block">
-                      <img src="assets/img/gpay.png" alt="">
-                    </a>
-                    <a href="javascript:void(0)" class="inline-block">
-                      <img src="assets/img/apay.png" alt="">
-                    </a>
-                  </div>
-              </div>
+            <div class="swiper-slide">
+                <div class="flex flex-wrap items-center">
+                <div class="w-full md:w-1/2 px-4 md:order-2">
+                    <img src="assets/img/banner-1.png" alt="banner-1"/>
+                </div>
+                <div class="w-full md:w-1/2 px-4 md:order-1 text-center space-y-5 md:space-y-7">
+                    <h1>Automate self-development</h1>
+                    <p class="text-base text-light_gray">Evolve daily by efficiently managing your time, thoughts,
+                        tasks and routines in a simple app.</p>
+                    <a href="javascript:void(0)" class="max-w-[280px] py-3 anim btn-primary group mx-auto">
+                        <svg class="fill-white w-5 h-5 group-hover:fill-dark_sky mr-2" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="512" height="512" x="0" y="0" viewBox="0 0 163.861 163.861" style="enable-background:new 0 0 512 512" xml:space="preserve"><g><path d="M34.857 3.613C20.084-4.861 8.107 2.081 8.107 19.106v125.637c0 17.042 11.977 23.975 26.75 15.509L144.67 97.275c14.778-8.477 14.778-22.211 0-30.686L34.857 3.613z" data-original="#000000" class=""></path></g></svg>
+                        Watch video
+                    </a> 
+                    <div class="flex justify-center space-x-5">
+                        <a href="javascript:void(0)" class="inline-block">
+                        <img src="assets/img/gpay.png" alt="">
+                        </a>
+                        <a href="javascript:void(0)" class="inline-block">
+                        <img src="assets/img/apay.png" alt="">
+                        </a>
+                    </div>
+                </div>
+                </div>
             </div>
-          </div>
-        </div>
-        <div class="swiper-pagination hidden lg:block"></div>
-      </div>
+            <div class="swiper-slide">
+                <div class="flex flex-wrap items-center">
+                <div class="w-full md:w-1/2 px-4 md:order-2">
+                    <img src="assets/img/banner-1.png" alt="banner-1"/>
+                </div>
+                <div class="w-full md:w-1/2 px-4 md:order-1 text-center space-y-5 md:space-y-7">
+                    <h1>Automate self-development</h1>
+                    <p class="text-base text-light_gray">Evolve daily by efficiently managing your time, thoughts,
+                        tasks and routines in a simple app.</p>
+                    <a href="javascript:void(0)" class="max-w-[280px] py-3 anim btn-primary group mx-auto">
+                        <svg class="fill-white w-5 h-5 group-hover:fill-dark_sky mr-2" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="512" height="512" x="0" y="0" viewBox="0 0 163.861 163.861" style="enable-background:new 0 0 512 512" xml:space="preserve"><g><path d="M34.857 3.613C20.084-4.861 8.107 2.081 8.107 19.106v125.637c0 17.042 11.977 23.975 26.75 15.509L144.67 97.275c14.778-8.477 14.778-22.211 0-30.686L34.857 3.613z" data-original="#000000" class=""></path></g></svg>
+                        Watch video
+                    </a> 
+                    <div class="flex justify-center space-x-5">
+                        <a href="javascript:void(0)" class="inline-block">
+                        <img src="assets/img/gpay.png" alt="">
+                        </a>
+                        <a href="javascript:void(0)" class="inline-block">
+                        <img src="assets/img/apay.png" alt="">
+                        </a>
+                    </div>
+                </div>
+                </div>
+            </div>
+            </div>
+            <div class="swiper-pagination hidden lg:block"></div>
+        </div> -->
          <!-- Swiper end-->
     </div>
   </section>
