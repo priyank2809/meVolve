@@ -19,3 +19,11 @@ $(function() {
     }     
   });
 });
+
+var swiper = new Swiper("#upcomingEvents", {
+  slidesPerView: 1,
+  spaceBetween: 10,
+  pagination: {
+    el: ".swiper-pagination",
+  },
+});
