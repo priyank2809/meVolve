@@ -51,5 +51,7 @@
   button.title_tab.active span svg{@apply fill-dark_sky;}
   button.title_tab.active span.arrow-drop{@apply -rotate-180;}
   .title_tab.active,.title_tab.active p{@apply text-[#1DA1F2] ;}
+
+  .swiper-pagination{@apply hidden md:block;}
   
 @tailwind utilities;
