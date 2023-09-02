@@ -7,7 +7,8 @@ import { PricingComponent } from './pricing/pricing.component';
 import { ContactComponent } from './contact/contact.component';
 
 const routes: Routes = [
-    { path: '', component: HomeComponent },
+    { path: '', redirectTo: '/home', pathMatch: 'full' },
+    { path: 'home', component: HomeComponent },
     { path: 'features', component: FeaturesComponent },
     { path: 'pricing', component: PricingComponent },
     { path: 'contact', component: ContactComponent },
